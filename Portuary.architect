@@ -185,10 +185,10 @@
     <column id="COL46" populated="true" UUID="a7308e08-df0e-4fe3-9a9a-7409a7ca99ac" autoIncrement="false" autoIncrementSequenceName="tb_container_id_container_seq" defaultValue="" name="id_container" nullable="0" physicalName="id_container" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL47" populated="true" UUID="a3d5a1d0-dc12-4e4a-a58a-d6a2832f4edf" autoIncrement="false" autoIncrementSequenceName="tb_movimentacao_ts_data_cadastro_seq" defaultValue="current_timestamp" name="ts_data_cadastro" nullable="0" physicalName="ts_data_cadastro" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+    <column id="COL47" populated="true" UUID="a3d5a1d0-dc12-4e4a-a58a-d6a2832f4edf" autoIncrement="false" autoIncrementSequenceName="tb_movimentacao_ts_data_inicio_seq" defaultValue="current_timestamp" name="ts_data_incio" nullable="0" physicalName="ts_data_inicio" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
      <remarks></remarks>
     </column>
-    <column id="COL48" populated="true" UUID="de1a5068-9bc6-47bf-9df3-59d686ebeae7" autoIncrement="false" autoIncrementSequenceName="tb_movimentacao_ts_data_alteracao_seq" defaultValue="current_timestamp" name="ts_data_alteracao" nullable="0" physicalName="ts_data_alteracao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+    <column id="COL48" populated="true" UUID="de1a5068-9bc6-47bf-9df3-59d686ebeae7" autoIncrement="false" autoIncrementSequenceName="tb_movimentacao_ts_data_termino_seq" defaultValue="" name="ts_data_termino" nullable="1" physicalName="ts_data_termino" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
      <remarks></remarks>
     </column>
     </folder>
@@ -265,9 +265,9 @@
   <table-pane table-ref="TAB36" x="173" y="674" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB43" x="828" y="381" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB51" x="1126" y="524" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-link relationship-ref="REL60" pkConnection="0.6619718309859155" fkConnection="0.5959595959595959" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="36"/>
+  <table-link relationship-ref="REL60" pkConnection="0.18779342723004694" fkConnection="0.19148936170212766" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="36"/>
   <table-link relationship-ref="REL68" pkConnection="0.3411764705882353" fkConnection="0.312" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="66"/>
-  <table-link relationship-ref="REL58" pkConnection="0.26262626262626265" fkConnection="0.304" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="129"/>
+  <table-link relationship-ref="REL58" pkConnection="0.1773049645390071" fkConnection="0.304" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="129"/>
   <table-link relationship-ref="REL62" pkConnection="0.3411764705882353" fkConnection="0.11067193675889328" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="65"/>
   <table-link relationship-ref="REL64" pkConnection="0.49122807017543857" fkConnection="0.18972332015810275" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="65"/>
   <table-link relationship-ref="REL66" pkConnection="0.631578947368421" fkConnection="0.28063241106719367" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="65"/>
